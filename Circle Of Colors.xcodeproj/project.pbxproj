@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2563BA62315A22100D1F5D7 /* MenuScence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2563BA52315A22100D1F5D7 /* MenuScence.swift */; };
+		E2563BA82315B08F00D1F5D7 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2563BA72315B08F00D1F5D7 /* win.wav */; };
+		E2563BAA2315B09D00D1F5D7 /* over.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2563BA92315B09C00D1F5D7 /* over.wav */; };
+		E2C1380C23157A4D00EBC49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1380B23157A4D00EBC49B /* AppDelegate.swift */; };
+		E2C1381223157A4D00EBC49B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1381123157A4D00EBC49B /* GameScene.swift */; };
+		E2C1381423157A4D00EBC49B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1381323157A4D00EBC49B /* GameViewController.swift */; };
+		E2C1381723157A4D00EBC49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1381523157A4D00EBC49B /* Main.storyboard */; };
+		E2C1381923157A4F00EBC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C1381823157A4F00EBC49B /* Assets.xcassets */; };
+		E2C1381C23157A4F00EBC49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C1381A23157A4F00EBC49B /* LaunchScreen.storyboard */; };
+		E2C13828231583EB00EBC49B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C13827231583EB00EBC49B /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2563BA52315A22100D1F5D7 /* MenuScence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScence.swift; sourceTree = "<group>"; };
+		E2563BA72315B08F00D1F5D7 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		E2563BA92315B09C00D1F5D7 /* over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = over.wav; sourceTree = "<group>"; };
+		E2C1380823157A4D00EBC49B /* Circle Of Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Of Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C1380B23157A4D00EBC49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C1381123157A4D00EBC49B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E2C1381323157A4D00EBC49B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E2C1381623157A4D00EBC49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2C1381823157A4F00EBC49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C1381B23157A4F00EBC49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C1381D23157A4F00EBC49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C13827231583EB00EBC49B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C1380523157A4D00EBC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C137FF23157A4D00EBC49B = {
+			isa = PBXGroup;
+			children = (
+				E2C1380A23157A4D00EBC49B /* Circle Of Colors */,
+				E2C1380923157A4D00EBC49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C1380923157A4D00EBC49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1380823157A4D00EBC49B /* Circle Of Colors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C1380A23157A4D00EBC49B /* Circle Of Colors */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1380B23157A4D00EBC49B /* AppDelegate.swift */,
+				E2C1381D23157A4F00EBC49B /* Info.plist */,
+				E2C1382623157DD600EBC49B /* Assets */,
+				E2C1382523157DC600EBC49B /* Template */,
+				E2C1382423157DB700EBC49B /* Scenes */,
+				E2C1382323157D9F00EBC49B /* ViewController */,
+			);
+			path = "Circle Of Colors";
+			sourceTree = "<group>";
+		};
+		E2C1382323157D9F00EBC49B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1381323157A4D00EBC49B /* GameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E2C1382423157DB700EBC49B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1381123157A4D00EBC49B /* GameScene.swift */,
+				E2563BA52315A22100D1F5D7 /* MenuScence.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E2C1382523157DC600EBC49B /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				E2C13827231583EB00EBC49B /* Settings.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		E2C1382623157DD600EBC49B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2C1381523157A4D00EBC49B /* Main.storyboard */,
+				E2C1381823157A4F00EBC49B /* Assets.xcassets */,
+				E2C1381A23157A4F00EBC49B /* LaunchScreen.storyboard */,
+				E2563BA72315B08F00D1F5D7 /* win.wav */,
+				E2563BA92315B09C00D1F5D7 /* over.wav */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C1380723157A4D00EBC49B /* Circle Of Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C1382023157A4F00EBC49B /* Build configuration list for PBXNativeTarget "Circle Of Colors" */;
+			buildPhases = (
+				E2C1380423157A4D00EBC49B /* Sources */,
+				E2C1380523157A4D00EBC49B /* Frameworks */,
+				E2C1380623157A4D00EBC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Of Colors";
+			productName = "Circle Of Colors";
+			productReference = E2C1380823157A4D00EBC49B /* Circle Of Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C1380023157A4D00EBC49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mohamed Elshaer";
+				TargetAttributes = {
+					E2C1380723157A4D00EBC49B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E2C1380323157A4D00EBC49B /* Build configuration list for PBXProject "Circle Of Colors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C137FF23157A4D00EBC49B;
+			productRefGroup = E2C1380923157A4D00EBC49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C1380723157A4D00EBC49B /* Circle Of Colors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C1380623157A4D00EBC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2563BAA2315B09D00D1F5D7 /* over.wav in Resources */,
+				E2C1381723157A4D00EBC49B /* Main.storyboard in Resources */,
+				E2563BA82315B08F00D1F5D7 /* win.wav in Resources */,
+				E2C1381923157A4F00EBC49B /* Assets.xcassets in Resources */,
+				E2C1381C23157A4F00EBC49B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C1380423157A4D00EBC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C1381223157A4D00EBC49B /* GameScene.swift in Sources */,
+				E2C1381423157A4D00EBC49B /* GameViewController.swift in Sources */,
+				E2C13828231583EB00EBC49B /* Settings.swift in Sources */,
+				E2C1380C23157A4D00EBC49B /* AppDelegate.swift in Sources */,
+				E2563BA62315A22100D1F5D7 /* MenuScence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2C1381523157A4D00EBC49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C1381623157A4D00EBC49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C1381A23157A4F00EBC49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C1381B23157A4F00EBC49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C1381E23157A4F00EBC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2C1381F23157A4F00EBC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C1382123157A4F00EBC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8KGAL2H5J;
+				INFOPLIST_FILE = "Circle Of Colors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.Elshaer.Circle-Of-Colors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C1382223157A4F00EBC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8KGAL2H5J;
+				INFOPLIST_FILE = "Circle Of Colors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M.Elshaer.Circle-Of-Colors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C1380323157A4D00EBC49B /* Build configuration list for PBXProject "Circle Of Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C1381E23157A4F00EBC49B /* Debug */,
+				E2C1381F23157A4F00EBC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C1382023157A4F00EBC49B /* Build configuration list for PBXNativeTarget "Circle Of Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C1382123157A4F00EBC49B /* Debug */,
+				E2C1382223157A4F00EBC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C1380023157A4D00EBC49B /* Project object */;
+}
